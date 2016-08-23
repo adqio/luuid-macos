@@ -28,7 +28,7 @@ build = {
    modules = {
       uuid = {
          libraries = { "uuid" },
-         incdirs = { "/usr/local/Cellar/ossp-uuid/1.6.2_1/include" },
+         incdirs = { "/usr/local/opt/ossp-uuid/include" },
          libdirs = { "/usr/local/lib" },
          sources = { "luuid.c" },
       }
